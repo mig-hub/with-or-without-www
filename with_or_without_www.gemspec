@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.name = 'with-or-without-www'
   s.version = "0.0.1"
   s.platform = Gem::Platform::RUBY
-  s.summary = "A Rack middleware that systematically removes or add 'www' from your host name."
-  s.description = "A Rack middleware that systematically removes or add 'www' from your host name. So that you have only one host which is better for SEO."
+  s.summary = "For Heroku users who want to systematically remove or add `www` from their host names. This rack middleware is for them. Go in peace."
+  s.description = "For Heroku users who want to systematically remove or add `www` from their host names. So that you have only one host which is better for SEO."
   s.files = `git ls-files`.split("\n").sort
   #s.test_files = ['spec.rb']
   s.require_path = '.'

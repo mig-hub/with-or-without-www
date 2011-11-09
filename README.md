@@ -13,12 +13,12 @@ when you don't have access to vhosts settings like on Heroku for example.
 
 In your rack stack, use it:
 
-  use WithOrWithoutWWW
+    use WithOrWithoutWWW
 
 And then it adds `www` if somebody tries to reach the website without it.
 Whereas:
 
-  use WithOrWithoutWWW, false
+    use WithOrWithoutWWW, false
 
 Will do the opposite.
 It will remove the `www` from your host name.
