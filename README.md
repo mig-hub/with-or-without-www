@@ -11,7 +11,15 @@ This is good for SEO to gather everything under one host name.
 Normally, this is done in your vhost settings, which means that this middleware is for
 when you don't have access to vhosts settings like on Heroku for example.
 
-In your rack stack, use it:
+Install it:
+
+    sudo gem install with-or-without-www
+
+Require it in your Rackup file:
+
+    require 'with_or_without_www'
+
+Use it:
 
     use WithOrWithoutWWW
 
