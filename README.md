@@ -31,6 +31,9 @@ Whereas:
 Will do the opposite.
 It will remove the `www` from your host name.
 
+A third argument can be passed and is an array with domain names to exclude (on which the middleware will have no effect).
+The default value is `['localhost']`.
+
 I almost feel guilty to make a Gem for that.
 
 Thx for reading,
